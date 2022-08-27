@@ -2,3 +2,44 @@
   margin: 0;
   padding: 0;
 }
+
+header {
+  text-align: center;
+}
+
+li {
+  margin: 25px 25px 25px 25px;
+  color: #a52;
+}
+
+span {
+  margin: 25px 25px 25px 25px;
+}
+
+#by-id {
+  color: rgb(0, 0, 100);
+}
+
+.by-class {
+  color: #8a2;
+}
+
+.class1.class2 {
+  color: rgb(150, 150, 200);
+}
+
+li span {
+  color: #8b008b;
+}
+
+div > span {
+  color: rgb(202, 226, 19);
+}
+
+b + i {
+  color: #4b0082;
+}
+
+footer {
+  text-align: center;
+}
