@@ -3,94 +3,53 @@
   padding: 0;
 }
 
-.back {
-  border: 1px solid #e6e6e6;
-  background-color: #c4c4c4;
-  width: 1100px;
-  margin: 100px;
-}
-.block {
-  background-color: #e6e6e6;
-  margin: 150px;
-}
-
-.square11 {
-  width: 200px;
-  height: 200px;
-  display: block;
-  background: #fc8f8f;
-  float: left;
-}
-
-.square12 {
-  width: 200px;
-  height: 200px;
-  display: block;
-  background: #fc8f8f;
-  float: right;
-}
-
-.square21 {
-  width: 200px;
-  height: 200px;
-  display: block;
-  background: #fc8f8f;
-}
-
-.square22 {
-  width: 100px;
-  height: 100px;
-  display: block;
-  background: #fc8f8f;
-  float: inline-start;
-}
-
-.square23 {
-  width: 100px;
-  height: 100px;
-  display: block;
-  background: #fc8f8f;
-  float: right;
-}
-
-.square31 {
-  width: 200px;
-  height: 200px;
-  display: block;
-  background: #fc8f8f;
-}
-
-.square32 {
-  width: 200px;
-  height: 200px;
-  display: block;
-  background: #fc8f8f;
-}
-.square33 {
-  width: 200px;
-  height: 200px;
-  display: block;
-  background: #fc8f8f;
-  float: right;
-}
-.square34 {
-  width: 200px;
-  height: 200px;
-  display: block;
-  background: #fc8f8f;
-  float: right;
-}
-
-span {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 64px;
-  line-height: 75px;
+.text-center {
   text-align: center;
-  color: #ffff;
 }
 
-.clearfix {
-  display: block;
-  clear: both;
+h1 {
+  color: #303033;
+  font-weight: 700;
+  margin-left: 30px;
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+
+.card {
+  width: 310px;
+  padding: 1rem;
+  border: 1px solid #fffafa;
+  border-radius: 1rem;
+  box-shadow: 5px 5px 15px#c0c0c0;
+  margin-left: 100px;
+  margin-top: 60px;
+  display: inline-block;
+}
+
+p {
+  font-family: "Pacifico", cursive;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #909090;
+}
+
+.photo {
+  border-radius: 0.5rem;
+  margin-top: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #0000ff;
+  margin-left: 155px;
+}
+
+hr {
+  border-top: 1px solid #303033;
+  margin-top: 10px;
 }
