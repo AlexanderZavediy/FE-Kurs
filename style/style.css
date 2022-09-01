@@ -7,27 +7,87 @@
   border: 1px solid #e6e6e6;
   background-color: #c4c4c4;
   width: 1100px;
-  height: 800px;
   margin: 100px;
 }
-
 .block {
-  border: 0px solid #c4c4c4;
   background-color: #e6e6e6;
-  margin: 100px;
-  padding: 65px;
+  margin: 150px;
 }
 
 .square11 {
-  border: 1px solid;
-  background-color: #fc8f8f;
   width: 200px;
   height: 200px;
+  display: block;
+  background: #fc8f8f;
+  float: left;
+}
+
+.square12 {
+  width: 200px;
+  height: 200px;
+  display: block;
+  background: #fc8f8f;
+  float: right;
 }
 
 .square21 {
-  border: 1px solid;
-  background-color: #fc8f8f;
+  width: 200px;
+  height: 200px;
+  display: block;
+  background: #fc8f8f;
+}
+
+.square22 {
+  width: 100px;
+  height: 100px;
+  display: block;
+  background: #fc8f8f;
+  float: inline-start;
+}
+
+.square23 {
+  width: 100px;
+  height: 100px;
+  display: block;
+  background: #fc8f8f;
+  float: right;
+}
+
+.square31 {
+  width: 200px;
+  height: 200px;
+  display: block;
+  background: #fc8f8f;
+}
+
+.square32 {
+  width: 200px;
+  height: 200px;
+  display: block;
+  background: #fc8f8f;
+}
+.square33 {
+  width: 200px;
+  height: 200px;
+  display: block;
+  background: #fc8f8f;
+  float: right;
+}
+.square34 {
+  width: 200px;
+  height: 200px;
+  display: block;
+  background: #fc8f8f;
+  float: right;
+}
+
+span {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #ffff;
 }
 
 .clearfix {
