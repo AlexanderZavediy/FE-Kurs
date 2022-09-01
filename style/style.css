@@ -16,74 +16,18 @@ h2 {
   font-family: "Roboto", sans-serif;
 }
 
-.card1 {
-  width: 240px;
-  height: 490px;
+.card {
+  width: 310px;
+  height: 500px;
   padding: 1rem;
   border: 28px solid #fffafa;
   border-radius: 1rem;
   box-shadow: 5px 5px 15px#c0c0c0;
   text-align: center;
-  margin-left: 230px;
+  margin-left: 100px;
   margin-top: 60px;
   vertical-align: middle;
-}
-
-.card2 {
-  width: 245px;
-  height: 490px;
-  padding: 1rem;
-  border: 28px solid #fffafa;
-  border-radius: 1rem;
-  box-shadow: 5px 5px 15px#c0c0c0;
-  text-align: center;
-  margin-left: 605px;
-  margin-top: -576px;
-  vertical-align: middle;
-}
-
-.card3 {
-  width: 287px;
-  height: 527px;
-  border: 25px solid #fffafa;
-  border-radius: 1rem;
-  box-shadow: 5px 5px 15px#c0c0c0;
-  text-align: center;
-  margin-left: 985px;
-  margin-top: -580px;
-}
-
-.card4 {
-  width: 282px;
-  height: 538px;
-  border: 25px solid #fffafa;
-  border-radius: 1rem;
-  box-shadow: 5px 5px 15px#c0c0c0;
-  text-align: center;
-  margin-left: 225px;
-  margin-top: 15px;
-}
-
-.card5 {
-  width: 282px;
-  height: 538px;
-  border: 25px solid #fffafa;
-  border-radius: 1rem;
-  box-shadow: 5px 5px 15px#c0c0c0;
-  text-align: center;
-  margin-left: 605px;
-  margin-top: -590px;
-}
-
-.card6 {
-  width: 287px;
-  height: 530px;
-  border: 25px solid #fffafa;
-  border-radius: 1rem;
-  box-shadow: 5px 5px 15px#c0c0c0;
-  text-align: center;
-  margin-left: 985px;
-  margin-top: -580px;
+  display: inline-block;
 }
 
 p {
