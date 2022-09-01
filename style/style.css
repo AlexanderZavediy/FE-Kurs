@@ -2,3 +2,35 @@
   margin: 0;
   padding: 0;
 }
+
+.back {
+  border: 1px solid #e6e6e6;
+  background-color: #c4c4c4;
+  width: 1100px;
+  height: 800px;
+  margin: 100px;
+}
+
+.block {
+  border: 0px solid #c4c4c4;
+  background-color: #e6e6e6;
+  margin: 100px;
+  padding: 65px;
+}
+
+.square11 {
+  border: 1px solid;
+  background-color: #fc8f8f;
+  width: 200px;
+  height: 200px;
+}
+
+.square21 {
+  border: 1px solid;
+  background-color: #fc8f8f;
+}
+
+.clearfix {
+  display: block;
+  clear: both;
+}
