@@ -2,3 +2,80 @@
   margin: 0;
   padding: 0;
 }
+
+.back {
+  border: 50px solid #ffff;
+  background-color: #c4c4c4;
+}
+
+.card1 {
+  margin-top: 50.5px;
+  margin-left: 210px;
+  width: 1000px;
+  border: 5px solid #c4c4c4;
+  background-color: #e6e6e6;
+}
+
+.card2 {
+  margin-top: 51px;
+  margin-left: 210px;
+  width: 1000px;
+  border: 5px solid #c4c4c4;
+  background-color: #e6e6e6;
+}
+
+.square11 {
+  width: 200px;
+  height: 200px;
+  display: block;
+  background: #fc8f8f;
+}
+
+.square12 {
+  width: 200px;
+  height: 200px;
+  display: block;
+  background: #fc8f8f;
+  float: right;
+  margin-top: -200px;
+}
+
+.square21 {
+  width: 200px;
+  height: 200px;
+  display: block;
+  background: #fc8f8f;
+}
+
+.square22 {
+  width: 100px;
+  height: 100px;
+  display: block;
+  background: #fc8f8f;
+  float: right;
+  margin-top: -200px;
+  margin-right: 410px;
+  text-align: center;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  width: 200px;
+  height: 75px;
+  font-weight: 700;
+  font-size: 65px;
+
+  text-align: center;
+  padding-top: 65px;
+  color: #ffff;
+}
+
+p2 {
+  font-family: "Roboto", sans-serif;
+  width: 100px;
+  height: 37.5px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 100px;
+  color: #ffff;
+}
