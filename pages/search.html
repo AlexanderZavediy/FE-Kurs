@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson7</title>
+    <link rel="stylesheet" href="./style/style_search.css">
+    <link rel="stylesheet" href="../fonts/font.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Сайт по подбору транспорта</h1>
+            <br>
+            <nav>
+                <a href="../index.html">Регистрация</a> |
+                <a href="../pages/authorization.html">Войти</a> |
+                <a href="../pages/search.html">Поиск транспорта</a>
+            </nav>
+            <h2>Выбор транспорта</h2>
+        </header>
+    </div>
+
+    <form action="https://fom.in.ua/echo">
+
+        <fieldset>
+            <legend>Тип транспорта</legend>
+            <select name="type" multiple required>
+                <option value="none" disabled selected>Выберите тип транспорта</option>
+                <option value="Легковые">Легковые</option>
+                <option value="Грузовики">Грузовики</option>
+                <option value="Мото">Мото</option>
+                <option value="Автобусы">Автобусы</option>
+                <option value="Cпецтехника">Cпецтехника</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Марка транспорта</legend>
+            <select name="mark" multiple required>
+                <option value="none" disabled selected>Выберите марку транспорта</option>
+                <option value="Audi">Audi</option>
+                <option value="Chevrolet">Chevrolet</option>
+                <option value="Toyota">Toyota</option>
+                <option value="Mercedes">Mercedes</option>
+                <option value="BMW">BMW</option>
+                <option value="Honda">Honda</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Страна производитель</legend>
+            <select name="country" multiple required>
+                <option value="none" disabled selected>Выберите страну производителя</option>
+                <option value="Германия">Германия</option>
+                <option value="Япония">Япония</option>
+                <option value="Франция">Франция</option>
+                <option value="США">США</option>
+                <option value="Корея">Корея</option>
+                <option value="Украина">Украина</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Месяц(год) выпуска</legend>
+            <label>
+                <span> От
+                    <input type="month" name="month">
+                </span>
+                <span> До
+                    <input type="month" name="month">
+                </span>
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Цена(В долларах)</legend>
+            <label>
+                <span> От
+                    <input type="number" min="500" max="100000" required name="price">
+                </span>
+                <span> До
+                    <input type="number" min="500" max="100000" required name="price">
+                </span>
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Состояние транспорта</legend>
+            <p><label><input type="checkbox" name="crash" value="Битая">
+                    <span>Битая</span></label></p>
+            <p><label><input type="checkbox" name="credit" value="В кредит">
+                    <span>В кредит</span></label></p>
+            <p><label><input type="checkbox" name="uncleared" value="Нерастаможенная">
+                    <span>Нерастаможенная</span></label></p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Тип топлива</legend>
+            <p><label><input type="checkbox" name="electr" value="Электричество">
+                    <span>Электричество</span></label></p>
+            <p><label><input type="checkbox" name="diesel" value="Дизель">
+                    <span> Дизель</span></label></p>
+            <p><label><input type="checkbox" name="Gasoline" value="Бензин">
+                    <span>Бензин</span></label></p>
+        </fieldset>
+
+        <fieldset>
+            <legend> Тип коробки передач </legend>
+            <select name="box" required>
+                <option value="none" disabled selected>Выберите коробки передач </option>
+                <option value="Механика">Механика</option>
+                <option value="Автомат">Автомат</option>
+                <option value="Роботизированная">Роботизированная</option>
+                <option value="Вариативная">Вариативная (бесступенчатая)</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend> Цвет транспорта </legend>
+            <input type="color" name="color">
+        </fieldset>
+
+        <fieldset>
+            <legend> Комфорт </legend>
+            <select name="comfortable" multiple>
+                <option value="none" disabled selected>Выберите доп.услугу</option>
+                <option value="Автономный переключатель">Автономный переключатель</option>
+                <option value="Подогрев сиденья">Подогрев сиденья</option>
+                <option value="Люк">Люк</option>
+                <option value="Кожаный салон">Кожаный салон</option>
+                <option value="Бортовой компьютер">Бортовой компьютер</option>
+            </select>
+        </fieldset>
+
+        <textarea name="text" placeholder="Дополнительные предложения"></textarea>
+
+        <label id="send">
+            <input type="submit">
+        </label>
+
+
+    </form>
+
+    <hr>
+
+    <br>
+
+    <footer>
+
+        <nav>
+            Заведий Александр
+            <br>
+            <a href="mailto:ho23707@gmail.com" target="_blank"> ho23707@gmail.com </a> |
+            <a href="https://t.me/Jud_XO" target="_blank"> Telegram </a>
+        </nav>
+
+    </footer>
+
+
+</body>
+
+</html>
