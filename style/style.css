@@ -1,4 +1,68 @@
-* {
+*,
+::before,
+::after {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: cursive;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(
+    45deg,
+    #002416 0%,
+    #05ffe7 45%,
+    #05ffe7 55%,
+    #097978 100%
+  );
+}
+
+.container {
+  width: 100%;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.main-title {
+  font-size: 2rem;
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.secondary-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.wrapper {
+  border: 1px dashed rgba(255, 50, 0, 0.9);
+  background-image: url(../images/color_left-top.png),
+    url(../images/color_left-bottom.png), url(../images/color_right-bottom.png),
+    url(../images/color_right-top.png);
+  background-position: top left, left bottom, right bottom, top right;
+  background-size: 150px;
+  background-repeat: no-repeat;
+  padding: 3rem;
+}
+
+.list {
+  max-width: max-content;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  list-style-type: none;
+  list-style-image: url(../images/red_check.png);
 }
