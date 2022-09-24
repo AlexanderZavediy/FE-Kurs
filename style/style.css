@@ -33,7 +33,7 @@
 }
 
 .list li:hover {
-  background: #009eff;
+  background: #00a9ff;
 }
 
 .parent:hover > .child {
