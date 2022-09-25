@@ -27,24 +27,12 @@ html {
   color: var(--color--darkblue);
 }
 
-.list {
-  list-style: none;
-  color: inherit;
-
-  padding: 30px 0px;
-}
-
-a {
-  text-decoration: none;
-  font-size: 14px;
+.cursor {
+  cursor: pointer;
 }
 
 .flex {
   display: flex;
-}
-
-.sign {
-  min-width: 120px;
 }
 
 .align-items {
@@ -53,6 +41,45 @@ a {
 
 .gap35 {
   gap: 35px;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.pd50 {
+  padding: 50px;
+}
+
+.flex-direction {
+  flex-direction: column;
+}
+
+.align-self {
+  align-self: center;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.gap10 {
+  gap: 10px;
+}
+
+/*---------------------header---------*/
+.list {
+  list-style: none;
+  padding: 30px 0px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.sign {
+  min-width: 120px;
 }
 
 .wrap {
@@ -92,28 +119,20 @@ a {
   max-width: 485px;
 }
 
-.justify-between {
-  justify-content: space-between;
-}
-
-.pd50 {
-  padding: 50px;
-}
-
 .description {
   margin-bottom: 25px;
 }
 
 .button {
   min-width: 161px;
-  padding: 15px 0px;
+  padding: 15px;
   font-size: 15px;
+  font-weight: 400;
   border: none;
   font-family: inherit;
   background: #17a550;
   border-radius: 5px;
   color: var(--background--color--white);
-  cursor: pointer;
 }
 
 .photo {
@@ -135,11 +154,10 @@ a {
   font-family: "Bitter", sans-serif;
   margin-bottom: 33px;
   font-weight: 400;
-  color: var(--color--darkblue);
+  font-size: 38px;
 }
 
 .section2 .second-title {
-  color: var(--color--darkblue);
   font-size: 30px;
   font-weight: 400;
   margin-bottom: 13px;
@@ -148,10 +166,6 @@ a {
 .section2 .description1 {
   font-size: 15px;
   line-height: 1.33;
-}
-
-.flex-direction {
-  flex-direction: column;
 }
 
 .road,
@@ -171,11 +185,6 @@ a {
 
 .section3 {
   padding-bottom: 97px;
-}
-
-.align-self {
-  align-self: center;
-  margin-left: 12px;
 }
 
 .section3 .background {
@@ -255,6 +264,13 @@ a {
   margin-bottom: 44px;
 }
 
+.letter {
+  margin-left: 10px;
+  font-size: 30px;
+  font-family: "Bitter", sans-serif;
+  font-weight: 400;
+}
+
 .section5 .more {
   margin-bottom: 24px;
 }
@@ -285,6 +301,7 @@ a {
   font-size: 12px;
   font-weight: 400;
   color: #536d7a;
+  margin-left: 12px;
 }
 
 /*-----------------------------section6---------------------------*/
@@ -303,7 +320,7 @@ a {
   margin-bottom: 11px;
 }
 
-.Web {
+.Web img {
   margin-bottom: 20px;
 }
 
@@ -312,10 +329,6 @@ a {
   font-family: "Bitter", sans-serif;
   font-size: 30px;
   font-weight: 400;
-}
-
-.flex-direction {
-  flex-direction: column;
 }
 
 .section6 .grass2,
@@ -368,14 +381,6 @@ a {
   font-size: 16px;
 
   font-weight: 400;
-}
-
-.mt20 {
-  margin-top: 20px;
-}
-
-.gap10 {
-  gap: 10px;
 }
 
 .last-text {
