@@ -189,7 +189,7 @@ a {
 
 .section3 .background {
   padding: 30px 0;
-  background: url(../images/background.svg);
+  background: url(../images/background.png);
 }
 
 .section3 .products {
@@ -320,7 +320,7 @@ a {
   margin-bottom: 11px;
 }
 
-.Web img {
+.Web {
   margin-bottom: 20px;
 }
 
@@ -340,6 +340,7 @@ a {
 .secondList li {
   margin-bottom: 7px;
   list-style: none;
+  cursor: pointer;
 }
 
 .section6 input {
