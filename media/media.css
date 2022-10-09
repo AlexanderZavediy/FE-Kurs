@@ -8,14 +8,15 @@
     max-width: 1080px;
   }
 
-  .section3 .photo {
-    aspect-ratio: 1/1;
-  }
   .container-up {
     max-width: 1320px;
   }
   .containerBasement {
     max-width: 1320px;
+  }
+
+  .section3 .photo {
+    aspect-ratio: 1/1;
   }
 }
 
@@ -29,15 +30,16 @@
     max-width: 664px;
   }
 
-  .section3 .photo {
-    aspect-ratio: 0.65/1;
-  }
-
   .container-up {
     max-width: 904px;
   }
+
   .containerBasement {
     max-width: 904px;
+  }
+
+  .section3 .photo {
+    aspect-ratio: 0.65/1;
   }
 }
 
@@ -71,6 +73,13 @@
     max-width: 648px;
   }
 
+  .container-up {
+    max-width: 648px;
+  }
+  .containerBasement {
+    max-width: 398px;
+  }
+
   .info {
     justify-content: flex-start;
     margin-bottom: 25px;
@@ -100,13 +109,6 @@
     justify-content: center;
     margin-top: 30px;
   }
-
-  .container-up {
-    max-width: 648px;
-  }
-  .containerBasement {
-    max-width: 398px;
-  }
 }
 
 /*------375--------*/
@@ -124,6 +126,14 @@
     max-width: 315px;
   }
 
+  .container-up {
+    max-width: 315px;
+  }
+
+  .containerBasement {
+    max-width: 315px;
+  }
+
   .section3 .cards {
     display: grid;
     grid-template-areas:
@@ -138,7 +148,7 @@
 
   .section1 .nav,
   .city,
-  .facebook {
+  .facebook-inf {
     display: none;
   }
 
@@ -186,10 +196,6 @@
   .section1 {
     margin-bottom: 0;
     margin-top: 0px;
-  }
-
-  .container-up {
-    max-width: 315px;
   }
 
   .section4 .point {
@@ -240,9 +246,5 @@
   .mobileMenu {
     opacity: 100%;
     display: flex;
-  }
-
-  .containerBasement {
-    max-width: 315px;
   }
 }

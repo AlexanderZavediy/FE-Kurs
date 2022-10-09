@@ -127,12 +127,10 @@ img {
 
 .section1 .language {
   padding: 5px 7px;
-
   font-size: 12px;
   font-weight: 700;
   line-height: 15px;
   letter-spacing: 1px;
-
   transition: all 0.5s linear;
 }
 
@@ -236,7 +234,7 @@ img {
   transition: all 0.3s linear;
 }
 
-.facebook:hover path {
+.facebookInf :hover path {
   fill: #f0145a;
 }
 
@@ -422,6 +420,11 @@ img {
 
 .section4 .map:hover {
   color: #f0145a;
+  cursor: pointer;
+}
+
+.section4 .facebook:hover path {
+  fill: #f0145a;
   cursor: pointer;
 }
 
