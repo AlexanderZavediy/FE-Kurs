@@ -148,7 +148,7 @@
 
   .section1 .nav,
   .city,
-  .facebook-inf {
+  .facebookInf {
     display: none;
   }
 
@@ -244,7 +244,6 @@
   }
 
   .mobileMenu {
-    opacity: 100%;
     display: flex;
   }
 }
