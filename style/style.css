@@ -417,6 +417,12 @@ img {
   letter-spacing: 1px;
   margin-top: 5px;
   color: #24a3ff;
+  transition: all 0.3s linear;
+}
+
+.section4 .map:hover {
+  color: #f0145a;
+  cursor: pointer;
 }
 
 .section4 .phone {
