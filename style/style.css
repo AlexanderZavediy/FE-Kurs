@@ -6,8 +6,443 @@
 
 .container {
   width: 100%;
-  max-width: 1150px;
+  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
   position: relative;
+}
+
+img {
+  max-width: 100%;
+}
+
+.small-container {
+  width: 100%;
+  max-width: 1360px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.ml-4px {
+  margin-left: 4px;
+}
+
+.font-family {
+  font-family: "Montserrat", sans-serif;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.text-decoration {
+  text-decoration: none;
+}
+
+.grey {
+  color: #b3b3ba;
+}
+
+.dark-blue {
+  color: #323264;
+}
+
+.position-r {
+  position: relative;
+}
+
+.position-a {
+  position: absolute;
+}
+
+.ml-6px {
+  margin-left: 6px;
+}
+
+.mr-6px {
+  margin-right: 6px;
+}
+
+.ml-10px {
+  margin-left: 10px;
+}
+
+.mr-10px {
+  margin-right: 10px;
+}
+
+.mt-10px {
+  margin-top: 10px;
+}
+
+.pt-30px {
+  padding-top: 30px;
+}
+
+.align-items {
+  align-items: center;
+}
+
+.flex-start {
+  align-items: flex-start;
+}
+
+.mb-30px {
+  margin-bottom: 30px;
+}
+
+/*--------------------------section1-------------------------------*/
+
+.section1 {
+  margin-bottom: 60px;
+  margin-top: 50px;
+}
+
+.slash {
+  padding-bottom: 13px;
+}
+
+.section1 .team {
+  font-size: 36px;
+}
+
+.language {
+  padding: 5px 7px;
+
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 1px;
+
+  transition: all 0.5s linear;
+}
+
+.container-up {
+  width: 100%;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section1 .Logo {
+  grid-area: Logo;
+}
+
+.section1 .info {
+  grid-area: info;
+}
+
+.section1 .nav {
+  grid-area: nav;
+}
+
+.head {
+  grid-template-areas:
+    "Logo info"
+    "Logo nav";
+}
+
+.section1 .language:hover {
+  background-color: #f5f5fa;
+  border-radius: 8px;
+}
+
+.point {
+  display: block;
+  width: 6px;
+  height: 6px;
+  background-color: #e6e6f0;
+  border-radius: 50%;
+}
+
+.section1 .english {
+  background-color: #f0145a;
+  border-radius: 8px;
+}
+
+.section1 .english:hover {
+  background-color: #f0145a;
+}
+
+.section1 .EN {
+  color: #ffffff;
+}
+
+.section1 .city {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+
+.section1 .phone {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  transition: all 0.3s linear;
+}
+
+.section1 .navigation {
+  margin-top: 16px;
+}
+
+.section1 ul {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: #24a3ff;
+}
+
+.section1 li {
+  list-style: none;
+  margin-right: 15px;
+  border-bottom: 4px solid transparent;
+  transition: all 0.3s linear;
+}
+
+.section1 li:nth-child(-n + 2):hover {
+  color: #24a3ff;
+  border-bottom-color: #24a3ff;
+  cursor: pointer;
+}
+
+.section1 li:nth-child(4):hover {
+  color: #24a3ff;
+  border-bottom-color: #24a3ff;
+  cursor: pointer;
+}
+
+.section1 li:nth-child(5):hover {
+  color: #24a3ff;
+  border-bottom-color: #24a3ff;
+  cursor: pointer;
+}
+
+.facebook path {
+  transition: all 0.3s linear;
+}
+
+.facebook:hover path {
+  fill: #f0145a;
+}
+
+.section1 .ourTeam {
+  color: #f0145a;
+  border-bottom: 4px solid #f0145a;
+}
+
+/*----------------section2-------------*/
+
+.section2 .description {
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0em;
+  background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.mobileMenu {
+  opacity: 0;
+  display: none;
+}
+
+.burger {
+  position: relative;
+}
+
+.firstLine {
+  position: absolute;
+  width: 18px;
+  height: 2px;
+  margin-top: 6px;
+  background-color: #323264;
+}
+
+.secondLine {
+  position: absolute;
+  margin-top: 12px;
+  width: 18px;
+  height: 2px;
+  background-color: #323264;
+}
+
+.thirdLine {
+  position: absolute;
+  margin-top: 18px;
+  width: 18px;
+  height: 2px;
+  background-color: #323264;
+}
+
+/*----------------section3-------------*/
+
+.section3 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.section3 .photo {
+  border-radius: 12px;
+  aspect-ratio: 1.23/1;
+  object-fit: cover;
+}
+
+.section3 .name {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.section3 .role {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+}
+
+.section3 .cards .wrap:hover .name {
+  color: #f0145a;
+  cursor: pointer;
+}
+
+.card1 {
+  grid-area: a;
+}
+.card2 {
+  grid-area: b;
+}
+.card3 {
+  grid-area: c;
+}
+.card4 {
+  grid-area: d;
+}
+.card5 {
+  grid-area: e;
+}
+.card6 {
+  grid-area: f;
+}
+
+.section3 .cards {
+  display: grid;
+  grid-template-areas:
+    "a b c"
+    "d e f";
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 60px;
+}
+
+.section3 .circle {
+  display: block;
+  position: relative;
+  width: 32px;
+  height: 32px;
+  background-color: #f5f5fa;
+  border-radius: 50%;
+  position: relative;
+}
+
+.section3 .check {
+  position: absolute;
+  margin-left: 12px;
+  margin-top: 7px;
+  cursor: pointer;
+}
+
+.section3 .check:hover path {
+  stroke: #f0145a;
+}
+
+/*----------------section4-------------*/
+
+.section4 {
+  padding: 30px 0 30px 0;
+  background-color: #f5f5fa;
+}
+
+.containerBasement {
+  width: 100%;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section4 .telephone {
+  color: #46466e;
+}
+
+.section4 .city {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.section4 .point {
+  display: block;
+  width: 6px;
+  height: 6px;
+  background-color: #b3b3ba;
+  border-radius: 50%;
+  margin-top: 9px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.section4 .map {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 1px;
+  margin-top: 5px;
+  color: #24a3ff;
+}
+
+.section4 .phone {
+  margin-top: 12px;
+}
+
+.section4 .email {
+  color: #24a3ff;
+  transition: all 0.3s linear;
+}
+
+.section4 .mail {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+
+.section4 .email:hover {
+  color: #f0145a;
+}
+
+.section4 .right-side {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  color: #b3b3ba;
 }
