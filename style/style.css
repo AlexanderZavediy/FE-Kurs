@@ -110,6 +110,13 @@ img {
   margin-top: 50px;
 }
 
+.container-up {
+  width: 100%;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .slash {
   padding-bottom: 13px;
 }
@@ -118,7 +125,7 @@ img {
   font-size: 36px;
 }
 
-.language {
+.section1 .language {
   padding: 5px 7px;
 
   font-size: 12px;
@@ -129,11 +136,9 @@ img {
   transition: all 0.5s linear;
 }
 
-.container-up {
-  width: 100%;
-  max-width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
+.section1 .language:hover {
+  background-color: #f5f5fa;
+  border-radius: 8px;
 }
 
 .section1 .Logo {
@@ -152,11 +157,6 @@ img {
   grid-template-areas:
     "Logo info"
     "Logo nav";
-}
-
-.section1 .language:hover {
-  background-color: #f5f5fa;
-  border-radius: 8px;
 }
 
 .point {
