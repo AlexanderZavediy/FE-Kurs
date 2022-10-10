@@ -113,10 +113,11 @@
   }
 }
 
+/*--------544--------*/
+
 @media screen and (max-width: 544px) and (min-width: 376px) {
   .section3 .cards {
     display: grid;
-
     grid-template-columns: 1fr 1fr;
   }
 
@@ -303,13 +304,9 @@
     margin-bottom: 10px;
   }
 
-  .mapPoint {
+  .section4 .mapPoint {
     display: block;
     text-align: center;
-  }
-
-  .tel {
-    display: flex;
   }
 
   .contactsFooter {
