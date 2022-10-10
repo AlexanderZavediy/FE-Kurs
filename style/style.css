@@ -10,6 +10,7 @@
   margin-left: auto;
   margin-right: auto;
   position: relative;
+  padding: 0 10px 0 10px;
 }
 
 img {
@@ -21,6 +22,7 @@ img {
   max-width: 1360px;
   margin-left: auto;
   margin-right: auto;
+  padding: 0 10px 0 10px;
 }
 
 .flex {
@@ -115,6 +117,7 @@ img {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
+  padding: 0 10px 0 10px;
 }
 
 .slash {
@@ -264,6 +267,14 @@ img {
   position: relative;
 }
 
+.logo-mob {
+  max-height: 32px;
+}
+
+.logoSlash {
+  max-height: 26px;
+}
+
 .firstLine {
   position: absolute;
   width: 18px;
@@ -297,7 +308,8 @@ img {
 
 .section3 .photo {
   border-radius: 12px;
-  aspect-ratio: 1.23/1;
+  width: 100%;
+  height: 400px;
   object-fit: cover;
 }
 
@@ -322,46 +334,22 @@ img {
   cursor: pointer;
 }
 
-.card1 {
-  grid-area: a;
-}
-.card2 {
-  grid-area: b;
-}
-.card3 {
-  grid-area: c;
-}
-.card4 {
-  grid-area: d;
-}
-.card5 {
-  grid-area: e;
-}
-.card6 {
-  grid-area: f;
-}
-
 .section3 .cards {
   display: grid;
-  grid-template-areas:
-    "a b c"
-    "d e f";
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   gap: 60px;
 }
 
 .section3 .circle {
   display: block;
-  position: relative;
+
   width: 32px;
   height: 32px;
   background-color: #f5f5fa;
   border-radius: 50%;
-  position: relative;
 }
 
 .section3 .check {
-  position: absolute;
   margin-left: 12px;
   margin-top: 7px;
   cursor: pointer;
@@ -383,6 +371,7 @@ img {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
+  padding: 0 10px 0 10px;
 }
 
 .section4 .telephone {

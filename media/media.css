@@ -16,12 +16,12 @@
   }
 
   .section3 .photo {
-    aspect-ratio: 1/1;
+    width: 100%;
   }
 }
 
 /*------1024--------*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) and (min-width: 769px) {
   .container {
     max-width: 904px;
   }
@@ -38,23 +38,25 @@
     max-width: 904px;
   }
 
-  .section3 .photo {
-    aspect-ratio: 0.65/1;
+  .facebookInf {
+    display: none;
   }
-}
 
-/*------768--------*/
-@media screen and (max-width: 768px) and (min-width: 376px) {
-  .section3 .photo {
-    aspect-ratio: 0.735/1;
+  .section1 .point-last {
+    display: none;
   }
 
   .section3 .cards {
     display: grid;
-    grid-template-areas:
-      "a b "
-      "c d "
-      "e f";
+
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/*------768--------*/
+@media screen and (max-width: 768px) and (min-width: 544px) {
+  .section3 .cards {
+    display: grid;
     grid-template-columns: 1fr 1fr;
   }
 
@@ -111,11 +113,108 @@
   }
 }
 
+@media screen and (max-width: 544px) and (min-width: 376px) {
+  .section3 .cards {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .section1 .head {
+    grid-template-areas:
+      "info"
+      "Logo"
+      "nav";
+  }
+
+  .container {
+    max-width: 648px;
+  }
+
+  .small-container {
+    max-width: 648px;
+  }
+
+  .container-up {
+    max-width: 648px;
+  }
+  .containerBasement {
+    max-width: 398px;
+  }
+
+  .section1 .nav,
+  .city,
+  .facebookInf {
+    display: none;
+  }
+
+  .info {
+    justify-content: flex-start;
+  }
+
+  header {
+    background-color: #f5f5fa;
+    padding: 10px 0 10px 0;
+  }
+
+  .inf {
+    justify-content: space-between;
+  }
+
+  .phone {
+    justify-content: flex-end;
+  }
+
+  .navigation {
+    position: absolute;
+  }
+
+  .head {
+    grid-template-areas: "info ";
+  }
+
+  .section1 {
+    margin: 0;
+  }
+
+  .mobileMenu {
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .point-wrapper {
+    display: none;
+  }
+
+  .nav {
+    justify-content: flex-start;
+  }
+
+  .Logo {
+    margin-bottom: 25px;
+    display: none;
+  }
+
+  .footer {
+    display: block;
+  }
+
+  .basement {
+    display: block;
+  }
+
+  .right-side {
+    justify-content: center;
+    margin-top: 30px;
+  }
+}
+
 /*------375--------*/
 
 @media screen and (max-width: 375px) {
   .section3 .photo {
-    aspect-ratio: 1.05/1;
+    height: 300px;
   }
 
   .small-container {
@@ -136,13 +235,6 @@
 
   .section3 .cards {
     display: grid;
-    grid-template-areas:
-      "a"
-      "b"
-      "c"
-      "d"
-      "e"
-      "f";
     grid-template-columns: 1fr;
   }
 
