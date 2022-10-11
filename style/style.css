@@ -359,9 +359,9 @@ img {
   stroke: #f0145a;
 }
 
-/*----------------section4-------------*/
+/*----------------footer-------------*/
 
-.section4 {
+footer {
   padding: 30px 0 30px 0;
   background-color: #f5f5fa;
 }
@@ -371,21 +371,21 @@ img {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 10px 0 10px;
+  padding: 0 15px 0 15px;
 }
 
-.section4 .telephone {
+footer .telephone {
   color: #46466e;
 }
 
-.section4 .city {
+footer .city {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
 }
 
-.section4 .point {
+footer .point {
   display: block;
   width: 6px;
   height: 6px;
@@ -396,7 +396,7 @@ img {
   margin-right: 10px;
 }
 
-.section4 .map {
+footer .map {
   font-size: 12px;
   font-weight: 700;
   line-height: 15px;
@@ -406,37 +406,37 @@ img {
   transition: all 0.3s linear;
 }
 
-.section4 .map:hover {
+footer .map:hover {
   color: #f0145a;
   cursor: pointer;
 }
 
-.section4 .facebook:hover path {
+footer .facebook:hover path {
   fill: #f0145a;
   cursor: pointer;
 }
 
-.section4 .phone {
+footer .phone {
   margin-top: 12px;
 }
 
-.section4 .email {
+footer .email {
   color: #24a3ff;
   transition: all 0.3s linear;
 }
 
-.section4 .mail {
+footer .mail {
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
   letter-spacing: 0em;
 }
 
-.section4 .email:hover {
+footer .email:hover {
   color: #f0145a;
 }
 
-.section4 .right-side {
+footer .right-side {
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;

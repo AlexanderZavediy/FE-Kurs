@@ -80,6 +80,7 @@
   }
   .containerBasement {
     max-width: 398px;
+    padding: 0;
   }
 
   .info {
@@ -95,7 +96,7 @@
     margin-bottom: 25px;
   }
 
-  .containerBasement {
+  footer .containerBasement {
     max-width: 398px;
   }
 
@@ -103,11 +104,11 @@
     display: block;
   }
 
-  .basement {
+  footer .phone {
     display: block;
   }
 
-  .right-side {
+  footer .right-side {
     justify-content: center;
     margin-top: 30px;
   }
@@ -204,6 +205,35 @@
   .basement {
     display: block;
   }
+  footer .point {
+    display: none;
+  }
+
+  .footer {
+    display: block;
+  }
+
+  footer .city {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  footer .mapPoint {
+    display: block;
+    text-align: center;
+  }
+
+  .contactsFooter {
+    display: block;
+    text-align: center;
+    margin-top: 21px;
+    padding-top: 0px;
+  }
+
+  footer .right-side {
+    text-align: center;
+    display: block;
+  }
 
   .right-side {
     justify-content: center;
@@ -291,7 +321,7 @@
     margin-top: 0px;
   }
 
-  .section4 .point {
+  footer .point {
     display: none;
   }
 
@@ -299,12 +329,12 @@
     display: block;
   }
 
-  .section4 .city {
+  footer .city {
     display: block;
     margin-bottom: 10px;
   }
 
-  .section4 .mapPoint {
+  footer .mapPoint {
     display: block;
     text-align: center;
   }
@@ -316,7 +346,7 @@
     padding-top: 0px;
   }
 
-  .section4 .right-side {
+  footer .right-side {
     text-align: center;
     display: block;
   }
