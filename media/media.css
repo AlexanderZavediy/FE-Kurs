@@ -1,17 +1,9 @@
 /*------1440--------*/
 @media screen and (max-width: 1440px) {
-  .container {
-    max-width: 1320px;
-  }
-
-  .small-container {
-    max-width: 1080px;
-  }
-
+  .container,
+  .containerBasement,
+  .small-container,
   .container-up {
-    max-width: 1320px;
-  }
-  .containerBasement {
     max-width: 1320px;
   }
 
@@ -22,20 +14,14 @@
 
 /*------1024--------*/
 @media screen and (max-width: 1024px) and (min-width: 769px) {
-  .container {
+  .container,
+  .containerBasement,
+  .container-up {
     max-width: 904px;
   }
 
   .small-container {
     max-width: 664px;
-  }
-
-  .container-up {
-    max-width: 904px;
-  }
-
-  .containerBasement {
-    max-width: 904px;
   }
 
   .facebookInf {
@@ -48,7 +34,6 @@
 
   .section3 .cards {
     display: grid;
-
     grid-template-columns: 1fr 1fr;
   }
 }
@@ -67,17 +52,12 @@
       "nav";
   }
 
+  .small-container,
+  .container-up,
   .container {
     max-width: 648px;
   }
 
-  .small-container {
-    max-width: 648px;
-  }
-
-  .container-up {
-    max-width: 648px;
-  }
   .containerBasement {
     max-width: 398px;
     padding: 0;
@@ -129,19 +109,11 @@
       "nav";
   }
 
-  .container {
-    max-width: 648px;
-  }
-
-  .small-container {
-    max-width: 648px;
-  }
-
-  .container-up {
-    max-width: 648px;
-  }
+  .container,
+  .small-container,
+  .container-up,
   .containerBasement {
-    max-width: 398px;
+    max-width: 648px;
   }
 
   .section1 .nav,
@@ -248,18 +220,9 @@
     height: 300px;
   }
 
-  .small-container {
-    max-width: 315px;
-  }
-
-  .container {
-    max-width: 315px;
-  }
-
-  .container-up {
-    max-width: 315px;
-  }
-
+  .small-container,
+  .container,
+  .container-up,
   .containerBasement {
     max-width: 315px;
   }
