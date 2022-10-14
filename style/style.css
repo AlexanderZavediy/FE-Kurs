@@ -112,7 +112,7 @@ img {
   margin-top: 50px;
 }
 
-.container-up {
+.up {
   width: 100%;
   max-width: 1600px;
   margin-left: auto;
@@ -259,20 +259,9 @@ img {
   background-clip: text;
 }
 
-.mobileMenu {
-  display: none;
-}
-
 .burger {
-  position: relative;
-}
-
-.logo-mob {
-  max-height: 32px;
-}
-
-.logoSlash {
-  max-height: 26px;
+  display: none;
+  grid-area: "burger-m";
 }
 
 .firstLine {
@@ -366,7 +355,7 @@ footer {
   background-color: #f5f5fa;
 }
 
-.containerBasement {
+.Basement {
   width: 100%;
   max-width: 1600px;
   margin-left: auto;

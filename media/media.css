@@ -104,9 +104,8 @@
 
   .section1 .head {
     grid-template-areas:
-      "info"
-      "Logo"
-      "nav";
+      "info info"
+      "Logo burger-m";
   }
 
   .container,
@@ -126,13 +125,17 @@
     justify-content: flex-start;
   }
 
-  header {
+  .inf {
+    margin-left: -25px;
+    margin-right: -25px;
+    padding: 10px 15px;
     background-color: #f5f5fa;
-    padding: 10px 0 10px 0;
+    justify-content: space-between;
   }
 
-  .inf {
-    justify-content: space-between;
+  .burger {
+    display: flex;
+    margin-top: 15px;
   }
 
   .phone {
@@ -151,23 +154,30 @@
     margin: 0;
   }
 
-  .mobileMenu {
-    display: flex;
-    margin-bottom: 20px;
-    margin-top: 20px;
+  .section1 .logo {
+    max-height: 32px;
   }
 
+  .section1 .Logo {
+    margin-top: 15px;
+  }
+
+  .section1 .slash {
+    max-height: 32px;
+  }
+
+  .section1 .team {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #323264;
+  }
   .point-wrapper {
     display: none;
   }
 
   .nav {
     justify-content: flex-start;
-  }
-
-  .Logo {
-    margin-bottom: 25px;
-    display: none;
   }
 
   .footer {
@@ -211,13 +221,29 @@
     justify-content: center;
     margin-top: 30px;
   }
+
+  .section2 .description {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 46px;
+    margin-top: 30px;
+    letter-spacing: 0em;
+    background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
 }
 
-/*------375--------*/
+/*------376--------*/
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
   .section3 .photo {
     height: 300px;
+  }
+
+  .section2 {
+    padding-top: 15px;
   }
 
   .small-container,
@@ -254,16 +280,30 @@
     background-clip: text;
   }
 
-  .Logo {
-    display: none;
+  .section1 .logo {
+    max-height: 32px;
   }
 
-  header {
-    background-color: #f5f5fa;
-    padding: 10px 0 10px 0;
+  .section1 .Logo {
+    margin-top: 15px;
+  }
+
+  .section1 .slash {
+    max-height: 32px;
+  }
+
+  .section1 .team {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #323264;
   }
 
   .inf {
+    margin-left: -25px;
+    margin-right: -25px;
+    padding: 10px 15px;
+    background-color: #f5f5fa;
     justify-content: space-between;
   }
 
@@ -276,7 +316,14 @@
   }
 
   .head {
-    grid-template-areas: "info ";
+    grid-template-areas:
+      "info info"
+      "Logo burger-m";
+  }
+
+  .burger {
+    display: flex;
+    margin-top: 15px;
   }
 
   .section1 {
@@ -312,20 +359,5 @@
   footer .right-side {
     text-align: center;
     display: block;
-  }
-
-  .logo-mob {
-    max-height: 32px;
-  }
-  .logoSlash {
-    max-height: 26px;
-  }
-
-  .section2 {
-    padding-top: 15px;
-  }
-
-  .mobileMenu {
-    display: flex;
   }
 }
