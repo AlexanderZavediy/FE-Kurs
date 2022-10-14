@@ -1,9 +1,9 @@
 /*------1440--------*/
 @media screen and (max-width: 1440px) {
   .container,
-  .containerBasement,
+  .Basement,
   .small-container,
-  .container-up {
+  .up {
     max-width: 1320px;
   }
 
@@ -15,8 +15,8 @@
 /*------1024--------*/
 @media screen and (max-width: 1024px) and (min-width: 769px) {
   .container,
-  .containerBasement,
-  .container-up {
+  .Basement,
+  .up {
     max-width: 904px;
   }
 
@@ -53,12 +53,12 @@
   }
 
   .small-container,
-  .container-up,
+  .up,
   .container {
     max-width: 648px;
   }
 
-  .containerBasement {
+  .Basement {
     max-width: 398px;
     padding: 0;
   }
@@ -76,7 +76,7 @@
     margin-bottom: 25px;
   }
 
-  footer .containerBasement {
+  footer .Basement {
     max-width: 398px;
   }
 
@@ -111,8 +111,8 @@
 
   .container,
   .small-container,
-  .container-up,
-  .containerBasement {
+  .up,
+  .Basement {
     max-width: 648px;
   }
 
@@ -222,8 +222,8 @@
 
   .small-container,
   .container,
-  .container-up,
-  .containerBasement {
+  .up,
+  .Basement {
     max-width: 315px;
   }
 
