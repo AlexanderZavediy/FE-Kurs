@@ -1,0 +1,380 @@
+/*------1440--------*/
+@media screen and (max-width: 1440px) {
+  .container {
+    max-width: 1320px;
+  }
+
+  .small-container {
+    max-width: 1080px;
+  }
+
+  .section2 input {
+    width: 450px;
+  }
+
+  .section2 .message {
+    width: 450px;
+  }
+
+  .section2 button {
+    width: 450px;
+  }
+
+  .section2 hr {
+    width: 510px;
+  }
+}
+
+/*------1060--------*/
+@media screen and (max-width: 1060px) and (min-width: 769px) {
+  .container {
+    max-width: 904px;
+  }
+
+  .small-container {
+    max-width: 935px;
+  }
+
+  .section2 input {
+    width: 362px;
+  }
+
+  .section2 .message {
+    width: 362px;
+  }
+
+  .section2 button {
+    width: 362px;
+  }
+
+  .section2 hr {
+    width: 422px;
+  }
+
+  .facebookInf,
+  .point-last {
+    display: none;
+  }
+}
+
+/*--------890--------*/
+@media screen and (max-width: 890px) {
+  .section1 .head {
+    grid-template-areas:
+      "info"
+      "Logo"
+      "nav";
+  }
+
+  .section2 {
+    padding: 0 0 60px 0;
+  }
+
+  .section2 .wrap {
+    margin-top: 60px;
+    max-width: 630px;
+  }
+
+  .section2 input {
+    width: 560px;
+  }
+
+  .section2 .message {
+    width: 560px;
+  }
+
+  .section2 button {
+    width: 560px;
+  }
+
+  .section2 hr {
+    width: 630px;
+  }
+
+  .section2 .information {
+    display: block;
+  }
+
+  .small-container,
+  .container {
+    max-width: 690px;
+  }
+
+  .Basement {
+    max-width: 398px;
+    padding: 0;
+  }
+
+  .info {
+    justify-content: flex-start;
+    margin-bottom: 25px;
+  }
+
+  .nav {
+    justify-content: flex-start;
+  }
+
+  .Logo {
+    margin-bottom: 25px;
+  }
+
+  footer .Basement {
+    max-width: 398px;
+  }
+
+  .footer {
+    display: block;
+  }
+
+  footer .phone {
+    display: block;
+  }
+
+  footer .right-side {
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .facebookInf,
+  .point-last {
+    display: none;
+  }
+}
+
+/*--------700--------*/
+
+@media screen and (max-width: 700px) and (min-width: 376px) {
+  .section1 .head {
+    grid-template-areas:
+      "info"
+      "Logo"
+      "nav";
+  }
+
+  .section2 {
+    padding: 0 0 60px 0;
+  }
+
+  .section2 .wrap {
+    margin-top: 60px;
+    max-width: 400px;
+  }
+
+  .section2 input {
+    width: 330px;
+  }
+
+  .section2 .message {
+    width: 330px;
+  }
+
+  .section2 button {
+    width: 330px;
+  }
+
+  .section2 hr {
+    width: 400px;
+  }
+
+  .section2 .information {
+    display: block;
+  }
+
+  .small-container,
+  .container {
+    max-width: 445px;
+  }
+
+  .Basement {
+    max-width: 398px;
+    padding: 0;
+  }
+
+  .info {
+    justify-content: flex-start;
+    margin-bottom: 25px;
+  }
+
+  .nav {
+    justify-content: flex-start;
+  }
+
+  .Logo {
+    margin-bottom: 25px;
+  }
+
+  footer .Basement {
+    max-width: 398px;
+  }
+
+  .footer {
+    display: block;
+  }
+
+  footer .phone {
+    display: block;
+  }
+
+  footer .right-side {
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .facebookInf,
+  .point-last {
+    display: none;
+  }
+}
+
+/*------466--------*/
+
+@media screen and (max-width: 466px) {
+  .section2 {
+    padding-top: 15px;
+  }
+
+  .section2 .wrap {
+    margin-top: 60px;
+    max-width: 315px;
+  }
+
+  .container {
+    max-width: 365px;
+  }
+
+  .small-container {
+    max-width: 345px;
+  }
+
+  .section2 input {
+    width: 255px;
+  }
+
+  .section2 .message {
+    width: 255px;
+  }
+
+  .section2 button {
+    width: 255px;
+  }
+
+  .section2 hr {
+    width: 315px;
+  }
+
+  .section1 .nav,
+  .city,
+  .facebookInf,
+  .point {
+    display: none;
+  }
+
+  .point-wrapper {
+    display: none;
+  }
+
+  .section2 .description {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 46px;
+    margin-top: 30px;
+    letter-spacing: 0em;
+    background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .section1 .logo {
+    max-height: 32px;
+  }
+
+  .section1 .Logo {
+    margin-top: 15px;
+  }
+
+  .section1 .slash {
+    max-height: 32px;
+  }
+
+  .section1 .logo-contact {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #323264;
+  }
+
+  .inf {
+    padding: 10px 15px;
+    background-color: #f5f5fa;
+    justify-content: space-between;
+  }
+
+  .info {
+    margin-left: -50px;
+    margin-right: -50px;
+  }
+
+  .phone {
+    justify-content: flex-end;
+  }
+
+  .navigation {
+    position: absolute;
+  }
+
+  .section1 .head {
+    grid-template-areas:
+      "info info"
+      "Logo burger-m";
+  }
+
+  .burger {
+    display: flex;
+    margin-top: 15px;
+  }
+
+  .section1 {
+    margin-bottom: 0;
+    margin-top: 0px;
+  }
+
+  footer .point {
+    display: none;
+  }
+
+  .footer {
+    display: block;
+  }
+
+  footer .city {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  footer .mapPoint {
+    display: block;
+    text-align: center;
+  }
+
+  .contactsFooter {
+    display: block;
+    text-align: center;
+    margin-top: 21px;
+    padding-top: 0px;
+  }
+
+  footer .right-side {
+    text-align: center;
+    display: block;
+  }
+}
+
+/*------433--------*/
+
+@media screen and (max-width: 445px) {
+  .info {
+    margin-left: -25px;
+    margin-right: -25px;
+  }
+}

@@ -6,8 +6,527 @@
 
 .container {
   width: 100%;
-  max-width: 1150px;
+  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
   position: relative;
+  padding: 0 10px 0 10px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.small-container {
+  width: 100%;
+  max-width: 1390px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px 0 15px;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.ml-4px {
+  margin-left: 4px;
+}
+
+.font-family {
+  font-family: "Montserrat", sans-serif;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.text-decoration {
+  text-decoration: none;
+}
+
+.grey {
+  color: #b3b3ba;
+}
+
+.dark-blue {
+  color: #323264;
+}
+
+.position-r {
+  position: relative;
+}
+
+.position-a {
+  position: absolute;
+}
+
+.ml-6px {
+  margin-left: 6px;
+}
+
+.mr-6px {
+  margin-right: 6px;
+}
+
+.ml-10px {
+  margin-left: 10px;
+}
+
+.mr-10px {
+  margin-right: 10px;
+}
+
+.mt-10px {
+  margin-top: 10px;
+}
+
+.mt-15px {
+  margin-top: 15px;
+}
+
+.mb-30px {
+  margin-bottom: 30px;
+}
+
+.pt-30px {
+  padding-top: 30px;
+}
+.pb-30px {
+  padding-bottom: 30px;
+}
+
+.align-items {
+  align-items: center;
+}
+
+.flex-start {
+  align-items: flex-start;
+}
+
+.mb-30px {
+  margin-bottom: 30px;
+}
+
+/*--------------------------section1-------------------------------*/
+
+.section1 {
+  margin-bottom: 60px;
+  margin-top: 50px;
+}
+
+.up {
+  width: 100%;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px 0 10px;
+}
+
+.slash {
+  padding-bottom: 13px;
+}
+
+.section1 .logo-contact {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  color: #323264;
+}
+
+.section1 .language {
+  padding: 5px 7px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 1px;
+  transition: all 0.5s linear;
+}
+
+.section1 .language:hover {
+  background-color: #f5f5fa;
+  border-radius: 8px;
+}
+
+.section1 .Logo {
+  grid-area: Logo;
+}
+
+.section1 .info {
+  grid-area: info;
+}
+
+.section1 .nav {
+  grid-area: nav;
+}
+
+.head {
+  grid-template-areas:
+    "Logo info"
+    "Logo nav";
+}
+
+.point {
+  display: block;
+  width: 6px;
+  height: 6px;
+  margin-bottom: 3px;
+  background-color: #e6e6f0;
+  border-radius: 50%;
+}
+
+.section1 .english {
+  background-color: #f0145a;
+  border-radius: 8px;
+}
+
+.section1 .english:hover {
+  background-color: #f0145a;
+}
+
+.section1 .EN {
+  color: #ffffff;
+}
+
+.section1 .city {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+
+.section1 .phone {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  transition: all 0.3s linear;
+}
+
+.section1 .navigation {
+  margin-top: 16px;
+}
+
+.section1 ul {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: #24a3ff;
+}
+
+.section1 li {
+  list-style: none;
+  margin-right: 15px;
+  border-bottom: 4px solid transparent;
+  transition: all 0.3s linear;
+}
+
+.section1 li:nth-child(-n + 3):hover {
+  color: #24a3ff;
+  border-bottom-color: #24a3ff;
+  cursor: pointer;
+}
+
+.section1 li:nth-child(4):hover {
+  color: #24a3ff;
+  border-bottom-color: #24a3ff;
+  cursor: pointer;
+}
+
+.facebook path {
+  transition: all 0.3s linear;
+}
+
+.facebookInf :hover path {
+  fill: #f0145a;
+}
+
+.section1 .ourContact {
+  color: #f0145a;
+  border-bottom: 4px solid #f0145a;
+}
+
+/*----------------section2-------------*/
+
+.section2 {
+  padding: 60px 0 60px 0;
+}
+
+.section2 .city-inf {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+  color: #323264;
+  margin-bottom: 30px;
+}
+
+.section2 hr {
+  background: #e6e6f0;
+  border-style: none;
+  width: 650px;
+  height: 4px;
+}
+
+.section2 .telephone {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+  color: #46466e;
+}
+
+.section2 .phone {
+  margin-bottom: 15px;
+}
+
+.section2 .email {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+  color: #24a3ff;
+}
+
+.section2 .faceText {
+  font-weight: 700;
+  font-size: 12px;
+  display: block;
+  line-height: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #24a3ff;
+  transition: all 0.3s linear;
+}
+
+.section2 .links:hover path {
+  fill: #f0145a;
+  cursor: pointer;
+}
+
+.section2 .links:hover .faceText {
+  color: #f0145a;
+  cursor: pointer;
+}
+
+.section2 .wrap {
+  background: #f5f5fa;
+  border-radius: 12px;
+  padding: 30px;
+}
+
+.section2 .help {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.section2 input,
+textarea {
+  padding: 15px;
+  display: block;
+  width: 590px;
+  height: 56px;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  outline: none;
+}
+
+.section2 .name {
+  padding-bottom: 15px;
+}
+
+.section2 .message {
+  width: 590px;
+  height: 130px;
+}
+
+.section2 input::placeholder {
+  color: #b3b3ba;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.section2 textarea::placeholder {
+  color: #b3b3ba;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.section2 input:focus {
+  border: 1px solid #24a3ff;
+}
+
+.section2 textarea:focus {
+  border: 1px solid #24a3ff;
+}
+
+.section2 .answer {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #b3b3ba;
+  margin-bottom: 15px;
+}
+
+.section2 button {
+  width: 590px;
+  height: 56px;
+  background: #24a3ff;
+  box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+  border-radius: 12px;
+  border-style: none;
+}
+
+.section2 .sendMes {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.section2 button:hover {
+  background: #0085ff;
+  box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+  cursor: pointer;
+}
+
+.section2 button:active {
+  background: #006ccf;
+  box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+}
+
+.burger {
+  display: none;
+  grid-area: "burger-m";
+}
+
+.firstLine {
+  position: absolute;
+  width: 18px;
+  height: 2px;
+  margin-top: 6px;
+  background-color: #323264;
+}
+
+.secondLine {
+  position: absolute;
+  margin-top: 12px;
+  width: 18px;
+  height: 2px;
+  background-color: #323264;
+}
+
+.thirdLine {
+  position: absolute;
+  margin-top: 18px;
+  width: 18px;
+  height: 2px;
+  background-color: #323264;
+}
+
+/*----------------footer-------------*/
+
+footer {
+  padding: 30px 0 30px 0;
+  background-color: #f5f5fa;
+}
+
+.Basement {
+  width: 100%;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px 0 15px;
+}
+
+footer .telephone {
+  color: #46466e;
+}
+
+footer .city {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+footer .point {
+  display: block;
+  width: 6px;
+  height: 6px;
+  background-color: #b3b3ba;
+  border-radius: 50%;
+  margin-top: 6px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+footer .map {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 1px;
+  margin-top: 3px;
+  color: #24a3ff;
+  transition: all 0.3s linear;
+}
+
+footer .map:hover {
+  color: #f0145a;
+  cursor: pointer;
+}
+
+footer .facebook:hover path {
+  fill: #f0145a;
+  cursor: pointer;
+}
+
+footer .phone {
+  margin-top: 12px;
+  font-weight: 700;
+}
+
+footer .email {
+  color: #24a3ff;
+  transition: all 0.3s linear;
+}
+
+footer .mail {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+
+footer .email:hover {
+  color: #f0145a;
+}
+
+footer .right-side {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  color: #b3b3ba;
 }
