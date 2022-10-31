@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>entryPage</title>
+    <title>homePage</title>
 
+    <link rel="stylesheet" href="./assets/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="./assets/slick-1.8.1/slick/slick-theme.css">
     <link rel="stylesheet" href="./fonts/font.css">
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./media/media.css">
@@ -14,158 +16,423 @@
 </head>
 
 <body>
-    <section class="section1">
-        <header>
+    <div class="mainWrapp">
+        <section class="section1">
 
-            <div class="container up grid head">
+            <header>
 
-                <div class="flex Logo">
-                    <img class="logo" src="./image/Logo.svg" alt="logo">
-                    <img class="slash ml-4px" src="./image/Slash.svg" alt="slash">
-                    <p class="logo-services white ml-4px font-family">services</p>
+                <div class="container up grid head">
+
+                    <div class="flex Logo">
+                        <img class="logo" src="./image/Logo.svg" alt="logo">
+
+                    </div>
+
+                    <div class="flex info inf justify-end align-items font-family">
+
+                        <div>
+                            <a class=" language white  text-decoration" href="#">УК</a>
+                            <a class=" language white  text-decoration" href="#">РУ</a>
+                            <a class=" language english white   text-decoration" href="#"> <span
+                                    class="EN">EN</span></a>
+                        </div>
+
+
+
+                        <span class="point ml-6px"></span>
+
+
+                        <div class="city ml-6px mr-6px font-family ">
+                            <a class="text-decoration white"
+                                href="https://www.google.com/maps/search/kyiv+mechnikova+str+14%2F1/@50.4383327,30.4417204,12z/data=!3m1!4b1"
+                                target="_blank">Kyiv,
+                                Mechnikova str, 14/1 </a>
+                        </div>
+
+                        <span class="point mr-6px  "></span>
+
+                        <div class="phone font-family">
+
+                            <a class="text-decoration  white" href="tel:0800211927"> 0800 211 927</a>
+
+
+                        </div>
+
+                        <div class="point-wrapper">
+                            <span class="point point-last ml-6px"></span>
+                        </div>
+
+                        <div class=" facebookInf ml-6px">
+                            <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <a xlink:href="https://www.facebook.com/" target="_blank">
+                                    <path
+                                        d="M24 12.5733C24 5.90541 18.6274 0.5 12 0.5C5.37258 0.5 0 5.90541 0 12.5733C0 18.5995 4.38823 23.5943 10.125 24.5V16.0633H7.07813V12.5733H10.125V9.91343C10.125 6.88755 11.9165 5.21615 14.6576 5.21615C15.9705 5.21615 17.3438 5.45195 17.3438 5.45195V8.42313H15.8306C14.3399 8.42313 13.875 9.35379 13.875 10.3086V12.5733H17.2031L16.6711 16.0633H13.875V24.5C19.6118 23.5943 24 18.5995 24 12.5733Z"
+                                        fill="#B3B3BA" />
+                                </a>
+
+                            </svg>
+                        </div>
+
+                    </div>
+
+                    <div class="navigation">
+                        <ul class="flex nav white justify-end font-family ">
+                            <li>about us</li>
+                            <li class="ourServices">services</li>
+                            <li>team</li>
+                            <li>publication</li>
+                            <li>contact</li>
+                        </ul>
+
+                    </div>
+
+
+
+                    <div class="burger flex justify-end">
+                        <span class="firstLine"></span>
+                        <span class="secondLine"></span>
+                        <span class="thirdLine"></span>
+                    </div>
+
                 </div>
 
-                <div class="flex info inf justify-end align-items font-family">
+            </header>
+        </section>
+
+        <section class="sectionSymbol flex">
+
+            <p class="provide font-family white flex ">you legal solutions provider</p>
+
+            <span class="Circle">
+                <svg class="circleCheck" width="20" height="12" viewBox="0 0 20 12" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 1L10 10L19 1" stroke="white" stroke-width="2" />
+                </svg>
+
+            </span>
+        </section>
+
+
+        <section class="section2">
+            <div class="small-container nav-descrip">
+                <div class="flex bootsNav justify-between">
+                    <div class="nav flex flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
+                        aria-orientation="vertical">
+                        <button class="list grey nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
+                            aria-selected="true">Consistent</button>
+                        <button class=" list grey nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
+                            aria-selected="false">Customer oriented</button>
+                        <button class="list grey nav-link" id="v-pills-messages-tab" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages"
+                            aria-selected="false">Innovative</button>
+                        <button class="list grey nav-link" id="v-pills-settings-tab" data-bs-toggle="pill"
+                            data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings"
+                            aria-selected="false">Business oriented</button>
+                    </div>
+                    <hr>
+                    <div class="tab-content descrip" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                            aria-labelledby="v-pills-home-tab">
+                            <h2 class="legal font-family white">We turn the idea of legal services</h2>
+                            <p class="lawyers font-family white">Consolidating many years of experience and practice,
+                                the company's lawyers accompany
+                                complex projects and achieve a number of important decisions for the industry. Many of
+                                them form the practice of applying the law of the sea in Ukraine.</p>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                            aria-labelledby="v-pills-profile-tab">
+                            <h2 class="legal font-family white">Lorem ipsum dolor sit amet consectetur, adipisicing</h2>
+                            <p class="lawyers font-family white">Lorem ipsum, dolor sit amet consectetur adipisicing
+                                elit. Excepturi doloribus libero odio ad nobis quod facilis magnam. Ea autem ipsum
+                                ratione, neque nobis veritatis impedit, similique, accusantium adipisci expedita sit?
+                            </p>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                            aria-labelledby="v-pills-messages-tab">
+                            <h2 class="legal font-family white">Lorem ipsum dolor sit.</h2>
+                            <p class="lawyers font-family white">Lorem ipsum, dolor sit amet consectetur adipisicing
+                                elit. Id hic voluptates labore ab repellendus aliquid?
+                            </p>
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                            aria-labelledby="v-pills-settings-tab">
+                            <h2 class="legal font-family white">Lorem ipsum dolor sit amet consectetur adipisicing.</h2>
+                            <p class="lawyers font-family white">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                elit. Pariatur quae aperiam fugiat iure accusantium rerum.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+        <section class="section3">
+            <div class="container">
+                <div class="flex services">
+                    <h3 class="cardServices   font-family">
+                        Services
+                        <svg class="check" width="8" height="11" viewBox="0 0 8 11" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.5 1L6 5.5L1.5 10" stroke="#24A3FF" stroke-width="2" />
+                        </svg>
+
+                    </h3>
+                </div>
+                <p class="others font-family">What can we do better than others?</p>
+                <div class="cards ">
+                    <div>
+                        <span class="square">
+                            <img class="cash" src="./image/Ecommerce.svg" alt="photo">
+                        </span>
+                        <h3 class="textCard font-family">IT and e-commerce</h3>
+                        <p class="description white font-family">An endless stream of contracts, tax issues, labor
+                            relations,
+                            corporate papers - legal
+                            work
+                            distracts you
+                            from doing business. But there is not much work to do to hire an in-house lawyer.</p>
+
+                    </div>
+
 
                     <div>
-                        <a class=" language white  text-decoration" href="#">УК</a>
-                        <a class=" language white  text-decoration" href="#">РУ</a>
-                        <a class=" language english white   text-decoration" href="#"> <span class="EN">EN</span></a>
+                        <span class="square">
+                            <img class="cash" src="./image/Support.svg" alt="photo">
+                        </span>
+                        <h3 class="textCard font-family">Comprehensive daily
+                            legal support</h3>
+                        <p class="description white font-family">In addition, over time, the work will become the same
+                            type
+                            and
+                            uninteresting for a full-time lawyer. And we know very well how difficult it is to find a
+                            good
+                            candidate
+                            with experience in the field of information technology in Ukraine.</p>
                     </div>
 
 
 
-                    <span class="point ml-6px"></span>
-
-
-                    <div class="city ml-6px mr-6px font-family ">
-                        <a class="text-decoration white"
-                            href="https://www.google.com/maps/search/kyiv+mechnikova+str+14%2F1/@50.4383327,30.4417204,12z/data=!3m1!4b1"
-                            target="_blank">Kyiv,
-                            Mechnikova str, 14/1 </a>
+                    <div>
+                        <span class="square">
+                            <img class="cash" src="./image/Coprorate.svg" alt="photo">
+                        </span>
+                        <h3 class="textCard font-family">Structuring corporate relationships</h3>
+                        <p class="description white font-family">Instead of just providing legal services, we will hire
+                            a
+                            lawyer
+                            or
+                            a whole team that will fit into the daily life of your company.</p>
                     </div>
 
-                    <span class="point mr-6px  "></span>
 
-                    <div class="phone font-family">
 
-                        <a class="text-decoration  white" href="tel:0800211927"> 0800 211 927</a>
+                    <div>
+                        <span class="square">
+                            <img class="cash" src="./image/Trust.svg" alt="photo">
+                        </span>
+                        <h3 class="textCard font-family">Building contractual relations</h3>
+                        <p class="description white font-family">Once a week, or week after month, you have your own
+                            lawyer
+                            by
+                            your
+                            side. Anyone in the company can catch it at the coffee maker and just talk about current
+                            affairs
+                            instead
+                            of waiting for update status.</p>
+                    </div>
 
+
+
+                    <div>
+                        <span class="square">
+                            <img class="cash" src="./image/Protection.svg" alt="photo">
+                        </span>
+                        <h3 class="textCard font-family">Protection of business, intellectual property</h3>
+                        <p class="description white font-family">And all the other time he will work on new diverse
+                            projects, so
+                            he
+                            will definitely not stop in professional development. One way or another, all Axon Partners
+                            will
+                            work
+                            for you instead of a corporate lawyer.</p>
 
                     </div>
 
-                    <div class="point-wrapper">
-                        <span class="point point-last ml-6px"></span>
-                    </div>
 
-                    <div class=" facebookInf ml-6px">
-                        <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <a xlink:href="https://www.facebook.com/" target="_blank">
-                                <path
-                                    d="M24 12.5733C24 5.90541 18.6274 0.5 12 0.5C5.37258 0.5 0 5.90541 0 12.5733C0 18.5995 4.38823 23.5943 10.125 24.5V16.0633H7.07813V12.5733H10.125V9.91343C10.125 6.88755 11.9165 5.21615 14.6576 5.21615C15.9705 5.21615 17.3438 5.45195 17.3438 5.45195V8.42313H15.8306C14.3399 8.42313 13.875 9.35379 13.875 10.3086V12.5733H17.2031L16.6711 16.0633H13.875V24.5C19.6118 23.5943 24 18.5995 24 12.5733Z"
-                                    fill="#B3B3BA" />
-                            </a>
 
-                        </svg>
+                    <div>
+                        <span class="square">
+                            <img class="cash" src="./image/Court.svg" alt="photo">
+                        </span>
+                        <h3 class="textCard font-family">Judicial representation</h3>
+                        <p class="description white font-family">Is it a small, medium-sized company or a market leader?
+                            Local
+                            business or multinational company? Do you have your own legal department or not?</p>
+
                     </div>
 
                 </div>
+            </div>
+        </section>
+    </div>
 
-                <div class="navigation">
-                    <ul class="flex nav white justify-end font-family ">
-                        <li>about us</li>
-                        <li class="ourServices">services</li>
-                        <li>team</li>
-                        <li>publication</li>
-                        <li>contact</li>
-                    </ul>
+    <section class="section4">
+        <div class="container">
+            <div id="mySlide" class="your-class">
 
+                <div class="item">
+
+                    <div class="flex teamWork">
+
+                        <img class="photo" src="./image/Team-1.jpg" alt="photo">
+
+
+                        <div class="wrapCard">
+                            <h3 class="team font-family">команда
+                                <svg class="check" width="8" height="11" viewBox="0 0 8 11" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.5 1L6 5.5L1.5 10" stroke="#24A3FF" stroke-width="2" />
+                                </svg>
+                            </h3>
+                            <p class="mainText font-family">Ми звикли брати на себе відповідальність та завжди
+                                гарантуємо
+                                чесну, вчасну
+                                допомогу, навіть
+                                у ситуаціях, коли більшість безсилі.</p>
+
+                            <h4 class="name font-family grey">Олександр Олександровський</h4>
+
+                            <p class="role font-family grey">Керуючий партнер</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+
+                    <div class="flex teamWork">
+
+                        <img class="photo" src="./image/Team-2.jpg" alt="photo">
+
+
+                        <div class="wrapCard">
+                            <h3 class="team font-family">команда
+                                <svg class="check" width="8" height="11" viewBox="0 0 8 11" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.5 1L6 5.5L1.5 10" stroke="#24A3FF" stroke-width="2" />
+                                </svg>
+                            </h3>
+                            <p class="mainText font-family">Ми звикли брати на себе відповідальність та завжди
+                                гарантуємо
+                                чесну, вчасну
+                                допомогу, навіть
+                                у ситуаціях, коли більшість безсилі.</p>
+
+                            <h4 class="name font-family grey">Євген Патриков</h4>
+
+                            <p class="role font-family grey">Пайовий партнер, адвокат</p>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="burger flex justify-end">
-                    <span class="firstLine"></span>
-                    <span class="secondLine"></span>
-                    <span class="thirdLine"></span>
+                <div class="item">
+                    <div class="flex teamWork">
+
+                        <img class="photo" src="./image/Team-3.jpg" alt="photo">
+
+
+                        <div class="wrapCard">
+                            <h3 class="team font-family">команда
+                                <svg class="check" width="8" height="11" viewBox="0 0 8 11" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.5 1L6 5.5L1.5 10" stroke="#24A3FF" stroke-width="2" />
+                                </svg>
+                            </h3>
+                            <p class="mainText font-family">Ми звикли брати на себе відповідальність та завжди
+                                гарантуємо
+                                чесну, вчасну
+                                допомогу, навіть
+                                у ситуаціях, коли більшість безсилі.</p>
+
+                            <h4 class="name font-family grey">Владислав Мельник</h4>
+
+                            <p class="role font-family grey">Associate</p>
+                        </div>
+                    </div>
                 </div>
-
-            </div>
-
-        </header>
-
-        <div class="small-container">
-            <div class="justifify-content flex">
-                <span class="square">
-                    <img class="cash" src="./image/Ecommerce.svg" alt="photo">
-                </span>
-            </div>
-            <div class="IT font-family">
-                <p>IT and e-commerce</p>
-            </div>
-
-            <div class="description-wrap">
-                <p class="description white font-family">
-                    An endless stream of contracts, tax issues, labor relations, corporate papers - legal work distracts
-                    you from doing business. But there is not much work to do to hire an in-house lawyer.</p>
-                <p class="description white font-family"> In addition, over time, the work will become the same type and
-                    uninteresting for a full-time lawyer.
-                    And we know very well how difficult it is to find a good candidate with experience in the field of
-                    information technology in Ukraine.</p>
-
-            </div>
-
-            <form class="flex justifify-content">
-
-                <button> <span class="send white  font-family">Free consultation</span> </button>
-
-            </form>
-
-            <hr>
-
-            <h3 class="title-area white font-family ">
-                Services in this area:
-            </h3>
-
-            <div class="navigate flex justify-around">
-
-                <ul class=" serv white font-family">
-                    <li class="list">support of investment projects for the development of port infrastructure;</li>
-                    <li class="list">certification of GTS, entering information about them in mandatory databases
-                        and registers;
-                    </li>
-                    <li class="list">registration of permits for the construction of port terminals;</li>
-                    <li class="list">registration of permit and other mandatory documentation required for carrying
-                        out
-                        activities in
-                        the port (emission permit, conclusion on EIA, RTC, etc.);</li>
-                </ul>
-
-                <ul class="serv white font-family">
-                    <li class="list">support of procedures related to the lease of state property in the port;</li>
-                    <li class="list">support of procedures related to confirmation of the status of port operator,
-                        maritime agent, foreign sailing line;
-                    </li>
-                    <li class="list">support of procedures related to the inclusion of the company within the port;</li>
-                    <li class="list">appeals against actions related to the illegal imposition of services in the port
-                        by monopoly companies.</li>
-                </ul>
 
 
             </div>
 
         </div>
+    </section>
+
+
+
+    <section class="section5">
+        <div class="ourPartner">
+            <h3 class="trust font-family">They already trust us</h3>
+
+            <div class="partners-logo">
+                <div class=" partner align-items  hillel">
+                    <img src="./image/Hillel.png" alt="Hillel">
+                </div>
+                <div class=" partner align-items  wanna">
+                    <img src="./image/WannaBiz.png" alt="wanna">
+                </div>
+                <div class=" partner align-items tapgerine">
+                    <img src="./image/tapgerine.png" alt="tapgerine">
+                </div>
+                <div class=" partner align-items  look">
+                    <img src="./image/Look.png" alt="look">
+                </div>
+                <div class=" partner align-items  orangear">
+                    <img src="./image/orangear.png" alt="orangear">
+                </div>
+                <div class=" partner align-items  adtelligent">
+                    <img src="./image/adtelligent.png" alt="adtelligent">
+                </div>
+                <div class=" partner align-items  Clickky">
+                    <img src="./image/Clickky.png" alt="Clickky">
+                </div>
+                <div class=" partner align-items  eco">
+                    <img src="./image/ecolease.png" alt="ecolease">
+                </div>
+                <div class=" partner align-items  infra">
+                    <img src="./image/Infra.png" alt="infra">
+                </div>
+                <div class=" partner align-items  city-park">
+                    <img src="./image/city-park.png" alt="city-park">
+                </div>
+                <div class=" partner align-items  art">
+                    <img src="./image/art-print.png" alt="art">
+                </div>
+                <div class=" partner align-items  ultimate">
+                    <img src="./image/ultimate.png" alt="ultimate">
+                </div>
+            </div>
+        </div>
+
 
     </section>
 
 
-    <section class="section2">
+
+    <section class="section6">
 
         <div class="container">
             <h3 class="public font-family">
                 Publications
-                <img src="./image/Vector 3.svg" alt="photo">
+                <svg class="check" width="8" height="11" viewBox="0 0 8 11" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1.5 1L6 5.5L1.5 10" stroke="#24A3FF" stroke-width="2" />
+                </svg>
             </h3>
 
-            <p class="recomend font-family">Recommended</p>
+            <p class="recomend font-family">We have something to tell</p>
 
             <div class="grid cardsColect">
                 <div class="cards firstCard">
@@ -275,6 +542,12 @@
 
         </div>
     </footer>
+
+
+    <script src="./js/jquery-3.6.1.min.js"></script>
+    <script src="./assets/slick-1.8.1/slick/slick.min.js"></script>
+    <script src="./assets/bootstrap-5.2.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
 
 </body>
 

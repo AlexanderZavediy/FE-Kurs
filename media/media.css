@@ -1,3 +1,10 @@
+/*------2560--------*/
+@media screen and (min-width: 2560px) {
+  .provide {
+    font-size: 50px;
+  }
+}
+
 /*------1440--------*/
 @media screen and (max-width: 1440px) {
   .container {
@@ -5,16 +12,36 @@
   }
 
   .small-container {
-    max-width: 1080px;
+    max-width: 1110px;
   }
 
   .section1 .list {
     max-width: 475px;
   }
+
+  .section2 .tab-pane {
+    max-width: 581px;
+  }
+
+  .partners-logo {
+    border-radius: 0;
+  }
+
+  .section4 .photo {
+    max-height: 344px;
+  }
+
+  .section5 {
+    padding: 60px 0 0 0;
+  }
+
+  .section6 {
+    margin-top: 0;
+  }
 }
 
-/*------1060--------*/
-@media screen and (max-width: 1060px) and (min-width: 769px) {
+/*------1095--------*/
+@media screen and (max-width: 1095px) {
   .container {
     max-width: 904px;
   }
@@ -30,6 +57,18 @@
 
   .section1 .list {
     max-width: 408px;
+  }
+
+  .section2 .tab-pane {
+    max-width: 400px;
+  }
+
+  .section4 .photo {
+    max-height: 528px;
+  }
+
+  .sectionSymbol {
+    min-height: 119.5vh;
   }
 }
 
@@ -50,7 +89,7 @@
     max-width: 280px;
   }
 
-  .section2 .cardsColect {
+  .section6 .cardsColect {
     grid-template-areas:
       "card1 card2 "
       "card3 card3";
@@ -64,6 +103,10 @@
   .small-container,
   .container {
     max-width: 690px;
+  }
+
+  .section3 .cards {
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .Basement {
@@ -105,11 +148,55 @@
   .point-last {
     display: none;
   }
+
+  .sectionSymbol {
+    aspect-ratio: 1/1.334;
+    min-height: 0;
+    background-size: cover;
+  }
+
+  .section2 .bootsNav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+  }
+
+  .section2 .tab-pane {
+    max-width: 648px;
+  }
+
+  .section2 .nav-descrip hr {
+    width: 648px;
+    height: 4px;
+  }
+
+  .section2 .descrip {
+    padding-left: 0;
+  }
+  .section2 .nav {
+    flex-direction: row;
+    overflow-y: auto;
+    white-space: nowrap;
+  }
+
+  .section4 .teamWork {
+    display: block;
+  }
+
+  .section4 .photo {
+    width: 100%;
+    max-width: 662px;
+    border-radius: 0;
+  }
+
+  .section5 .partner {
+    max-width: 33.33%;
+  }
 }
 
-/*------700--------*/
+/*--------760--------*/
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 760px) {
   .section2 {
     padding-top: 15px;
   }
@@ -120,7 +207,7 @@
   }
 
   .container {
-    max-width: 365px;
+    max-width: 500px;
   }
 
   .small-container {
@@ -157,11 +244,10 @@
     color: #ffff;
   }
 
-  .section2 .cardsColect {
+  .section6 .cardsColect {
     grid-template-areas:
-      "card1  "
-      "card2 "
-      "card3";
+      "card1 card2 "
+      "card3 card3";
     gap: 30px;
   }
 
@@ -186,6 +272,11 @@
 
   .phone {
     justify-content: flex-end;
+  }
+
+  .section3 .cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
   }
 
   .navigation {
@@ -249,13 +340,83 @@
     text-align: center;
     display: block;
   }
+
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;
+  }
+
+  .provide {
+    max-width: 575px;
+  }
 }
 
-/*------445--------*/
+/*--------580--------*/
 
-@media screen and (max-width: 445px) {
+@media screen and (max-width: 580px) {
   .info {
     margin-left: -25px;
     margin-right: -25px;
+  }
+
+  .section6 .cardsColect {
+    grid-template-areas:
+      "card1  "
+      "card2 "
+      "card3";
+    gap: 30px;
+  }
+
+  .container {
+    max-width: 355px;
+  }
+
+  .section3 .cards {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+
+  .section3 .others {
+    font-size: 30px;
+  }
+
+  .section4 .mainText {
+    font-size: 30px;
+  }
+
+  .section2 .nav-descrip hr {
+    width: 648px;
+    height: 4px;
+  }
+
+  .section2 .legal {
+    font-size: 20px;
+  }
+
+  .section2 .lawyers {
+    font-size: 16px;
+  }
+
+  .section5 .partner {
+    max-width: 100%;
+  }
+
+  .section5 .partners-logo {
+    max-height: 720px;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  .section6 .recomend {
+    font-size: 30px;
+  }
+
+  .sectionSymbol {
+    aspect-ratio: 1/1.6;
+    min-height: 0;
+  }
+
+  .provide {
+    max-width: 280px;
   }
 }

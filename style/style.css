@@ -24,14 +24,6 @@ img {
   max-width: 100%;
 }
 
-.small-container {
-  width: 100%;
-  max-width: 1390px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 15px 0 15px;
-}
-
 .flex {
   display: flex;
 }
@@ -143,19 +135,53 @@ img {
   margin-top: 30px;
 }
 
-/*--------------------------section1-------------------------------*/
+/*--------------------------mainWrapp-------------------------------*/
 
-.section1 {
-  padding-bottom: 60px;
-  padding-top: 50px;
-  position: relative;
-  border-radius: 0px 0px 12px 12px;
+.mainWrapp {
   background: linear-gradient(
     228.57deg,
     #323264 11.93%,
     #323264 57.17%,
     #643e72 87.46%
   );
+  border-radius: 0px 0px 12px 12px;
+  position: relative;
+}
+
+.mainWrapp::before {
+  display: block;
+  background: #cacadb;
+  height: 10px;
+  width: calc(100% - 40px);
+  border-radius: 0px 0px 12px 12px;
+  top: 100%;
+  z-index: -1;
+  content: "";
+  position: absolute;
+  margin-left: 20px;
+}
+
+.mainWrapp::after {
+  background: #e7e7f2;
+  height: 10px;
+  width: calc(100% - 80px);
+  top: calc(100% + 10px);
+  border-radius: 0px 0px 12px 12px;
+  z-index: -2;
+  content: "";
+  position: absolute;
+  margin-left: 40px;
+}
+
+/*--------------------------section1-------------------------------*/
+
+.section1 {
+  padding-top: 50px;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  border-radius: 0px 0px 12px 12px;
 }
 
 .up {
@@ -262,6 +288,12 @@ img {
   cursor: pointer;
 }
 
+.section1 .navigation li:nth-child(2):hover {
+  color: #f0145a;
+  border-bottom-color: #f0145a;
+  cursor: pointer;
+}
+
 .section1 .navigation li:nth-child(3):hover {
   color: #f0145a;
   border-bottom-color: #f0145a;
@@ -293,118 +325,12 @@ img {
   fill: #f0145a;
 }
 
-.section1 .ourServices {
-  color: #f0145a;
-  border-bottom: 4px solid #f0145a;
+.section1 .Circle:hover .circleCheck path {
+  stroke: #f0145a;
 }
 
-.section1::before {
-  margin-left: 20px;
-  background: #cacadb;
-  height: 10px;
-  width: calc(100% - 40px);
-  top: 100%;
-  border-radius: 0px 0px 12px 12px;
-  z-index: -1;
-  content: "";
-  position: absolute;
-}
-
-.section1::after {
-  margin-left: 40px;
-  background: #e7e7f2;
-  height: 10px;
-  width: calc(100% - 80px);
-  top: calc(100% + 10px);
-  border-radius: 0px 0px 12px 12px;
-  z-index: -2;
-  content: "";
-  position: absolute;
-}
-
-.section1 .square {
-  width: 92px;
-  height: 92px;
-  background: #ffffff;
-  border-radius: 24px;
-  margin-top: 65px;
-}
-
-.section1 .cash {
-  padding: 14px;
-}
-
-.section1 .IT {
-  font-weight: 700;
-  font-size: 38px;
-  line-height: 46px;
-  text-align: center;
-  padding-top: 28px;
-  background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
-}
-
-.section1 .description-wrap {
-  max-width: 1360px;
-}
-
-.section1 .description {
-  font-weight: 400;
-  font-size: 19px;
-  line-height: 30px;
-  text-align: center;
-  margin-top: 28px;
-}
-
-.section1 button {
-  background: #24a3ff;
-  box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
-  border: none;
-  border-radius: 12px;
-  width: 208px;
-  height: 56px;
-  margin-top: 46px;
-  margin-bottom: 60px;
-  cursor: pointer;
-}
-
-.section1 .send {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  text-align: center;
-}
-
-.section1 hr {
-  background: rgba(255, 255, 255, 0.5);
-  height: 4px;
-  margin-bottom: 30px;
-  border: none;
-}
-
-.section1 .title-area {
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 27px;
-  margin-bottom: 30px;
-}
-
-.section1 .serv {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 26px;
-}
-
-.section1 .list {
-  margin-bottom: 15px;
-  max-width: 636px;
-}
-
-.section1 .list::marker {
-  color: #f0145a;
+.section1 .Circle:hover {
+  border: 2px solid #f0145a;
 }
 
 .burger {
@@ -436,47 +362,453 @@ img {
   background-color: #323264;
 }
 
+/*----------------sectionSymbol-------------*/
+
+.sectionSymbol {
+  position: relative;
+  min-height: 100vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: url(../image/Symbol.png) no-repeat center/contain;
+}
+
+.provide {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+}
+
+.Circle {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 42px;
+  width: 42px;
+  border: 2px solid #b3b3ba;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.circleCheck {
+  margin-top: 14px;
+}
+
+.Circle:hover .circleCheck path {
+  stroke: #f0145a;
+}
+
+.Circle:hover {
+  border: 2px solid #f0145a;
+}
+
 /*----------------section2-------------*/
 
-.section2 {
-  margin-top: 80px;
-  padding: 30px 0 0 0;
-  background: #f5f5fa;
+.section2 .list {
+  display: flex;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+
+  transition: all 0.3s linear;
+  border: none;
+  background: none;
 }
 
-.section2 .cardsColect {
-  grid-template-areas: "card1 card2 card3";
+.section2 .list:hover {
+  color: #f0145a;
+  cursor: pointer;
+}
+
+.section2 .nav-descrip {
+  padding-top: 60px;
+}
+
+.section2 .nav-descrip hr {
+  width: 4px;
+  height: 303px;
+  border: none;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.section2 .descrip {
+  align-self: center;
+  padding-left: 60px;
+}
+
+.section2 .legal {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  margin-bottom: 30px;
+}
+
+.section2 .lawyers {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 13px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    228.57deg,
+    #323264 11.93%,
+    #323264 57.17%,
+    #643e72 87.46%
+  );
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(
+    228.57deg,
+    #323264 11.93%,
+    #323264 57.17%,
+    #643e72 87.46%
+  );
+}
+
+.section2 .list.active {
+  background: linear-gradient(90.13deg, #ef8080 0.84%, #f0145a 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.section2 .tab-pane {
+  display: none;
+  max-width: 860px;
+}
+
+.section2 .nav {
+  flex-direction: column;
   gap: 30px;
+  align-items: flex-end;
 }
 
-.section2 .firstCard {
-  grid-area: card1;
+.section2 .tab-pane.show {
+  display: block;
 }
 
-.section2 .secondCard {
-  grid-area: card2;
+/*----------------section3-------------*/
+
+.section3 {
+  padding-bottom: 60px;
 }
 
-.section2 .thirdCard {
-  grid-area: card3;
+.section3 .cardServices {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: all 0.3s linear;
+  color: #24a3ff;
 }
 
-.section2 .cards {
-  width: 100%;
+.section3 .check path {
+  stroke: #24a3ff;
+  transition: all 0.3s linear;
+}
+
+.section3 .services {
+  padding-top: 60px;
+  cursor: pointer;
+}
+
+.section3 .services :hover .check path {
+  stroke: #f0145a;
+}
+
+.section3 .services .cardServices:hover {
+  color: #f0145a;
+}
+
+.section3 .others {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-top: 10px;
+}
+
+.section3 .square {
+  display: block;
+  width: 92px;
+  height: 92px;
   background: #ffffff;
-  border-radius: 8px;
+  border-radius: 24px;
+  margin-top: 65px;
 }
 
-.section2 .public {
+.section3 .cash {
+  padding: 14px;
+}
+
+.section3 .textCard {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #24a3ff;
+  margin-top: 30px;
+}
+
+.section3 .description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  max-width: 493.33px;
+  margin-top: 15px;
+}
+
+.section3 .cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px;
+}
+
+/*----------------section4-------------*/
+
+.section4 {
+  margin-top: 60px;
+}
+
+.section4 .team {
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #24a3ff;
+  transition: all 0.3s linear;
+  cursor: pointer;
 }
 
-.section2 .recomend {
+.section4 .check path {
+  transition: all 0.3s linear;
+}
+
+.section4 .team:hover .check path {
+  stroke: #f0145a;
+}
+
+.section4 .team:hover {
+  color: #f0145a;
+}
+
+.section4 .mainText {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  padding-bottom: 30px;
+  padding-top: 5px;
+}
+
+.section4 .name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.section4 .role {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.section4 .wrapCard {
+  background: #f5f5fa;
+
+  padding: 30px;
+}
+
+.section4 .photo {
+  max-width: 400px;
+  max-height: 298px;
+  object-fit: cover;
+  border-radius: 12px 0 0 12px;
+}
+
+.slick-dots {
+  position: absolute;
+  display: block;
+  width: 100%;
+  bottom: -45px;
+  list-style: none;
+  text-align: center;
+}
+
+.slick-dots li button:before {
+  font-size: 15px;
+  opacity: 0.25;
+  color: #24a3ff;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 0.75;
+  color: #24a3ff;
+}
+
+/*----------------section5-------------*/
+
+.section5 {
+  padding: 60px 15px;
+}
+
+.section5 .trust {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #323264;
+  text-align: center;
+}
+
+.partners-logo {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.section5 .partner {
+  width: 100%;
+  max-width: 25%;
+  height: 120px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.section5 .hillel {
+  background: #1c4280;
+}
+
+.section5 .wanna {
+  background: #143646;
+}
+
+.section5 .tapgerine {
+  background: linear-gradient(0deg, #f48b30, #f48b30), #f48b30;
+}
+
+.section5 .look {
+  background: #9e4dc3;
+}
+
+.section5 .orangear {
+  background: #fd9339;
+}
+
+.section5 .adtelligent {
+  background: #e2e2e4;
+}
+
+.section5 .Clickky {
+  background: #c71c36;
+}
+
+.section5 .eco {
+  background: #dcf3f9;
+}
+
+.section5 .infra {
+  background: #eaeaea;
+}
+
+.section5 .city-park {
+  background: #282240;
+}
+
+.section5 .art {
+  background: #1d4568;
+}
+
+.section5 .ultimate {
+  background: #000000;
+}
+
+/*----------------section6-------------*/
+
+.ourPartner {
+  max-width: 1720px;
+  margin: auto;
+  padding: auto;
+}
+
+.section6 {
+  margin-top: 80px;
+  padding: 30px 0 0 0;
+  background: #f5f5fa;
+}
+
+.section6 .cardsColect {
+  grid-template-areas: "card1 card2 card3";
+  gap: 30px;
+}
+
+.section6 .firstCard {
+  grid-area: card1;
+}
+
+.section6 .secondCard {
+  grid-area: card2;
+}
+
+.section6 .thirdCard {
+  grid-area: card3;
+}
+
+.section6 .cards {
+  width: 100%;
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+.section6 .public {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #24a3ff;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+
+.section6 .public:hover {
+  color: #f0145a;
+}
+
+.section6 .check path {
+  transition: all 0.3s linear;
+}
+
+.section6 .public:hover .check path {
+  stroke: #f0145a;
+}
+
+.section6 .recomend {
   font-weight: 700;
   font-size: 38px;
   line-height: 46px;
@@ -489,13 +821,13 @@ img {
   margin-bottom: 30px;
 }
 
-.section2 .image {
+.section6 .image {
   width: 100%;
   height: 200px;
   object-fit: cover;
 }
 
-.section2 .associate {
+.section6 .associate {
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -503,7 +835,7 @@ img {
   padding-bottom: 15px;
 }
 
-.section2 .month {
+.section6 .month {
   font-weight: 700;
   font-size: 12px;
   line-height: 15px;
@@ -513,7 +845,7 @@ img {
   padding-bottom: 15px;
 }
 
-.section2 .text-card {
+.section6 .text-card {
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
@@ -521,17 +853,17 @@ img {
   margin-top: 15px;
 }
 
-.section2 .wrapper {
+.section6 .wrapper {
   padding: 30px;
 }
 
-.section2 hr {
+.section6 hr {
   background: #e6e6f0;
   height: 4px;
   border: none;
 }
 
-.section2 .last-line {
+.section6 .last-line {
   height: 2px;
 }
 
