@@ -249,6 +249,10 @@
     text-align: center;
     display: block;
   }
+
+  .section1 .IT {
+    font-size: 30px;
+  }
 }
 
 /*------445--------*/
@@ -257,5 +261,9 @@
   .info {
     margin-left: -25px;
     margin-right: -25px;
+  }
+
+  .section1 .IT {
+    font-size: 30px;
   }
 }
