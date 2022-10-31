@@ -68,7 +68,8 @@
   }
 
   .sectionSymbol {
-    min-height: 119.5vh;
+    min-height: 0;
+    aspect-ratio: 1/0.757;
   }
 }
 
