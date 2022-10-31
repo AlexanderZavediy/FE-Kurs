@@ -474,6 +474,20 @@ img {
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #24a3ff;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+
+.section2 .public:hover {
+  color: #f0145a;
+}
+
+.section2 .check path {
+  transition: all 0.3s linear;
+}
+
+.section2 .public:hover .check path {
+  stroke: #f0145a;
 }
 
 .section2 .recomend {
